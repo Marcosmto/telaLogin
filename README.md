@@ -1,2 +1,2 @@
 # telaLogin
- Projeto de tela de login para usúarios
+ Projeto de tela de login para usuários
