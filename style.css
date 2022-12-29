@@ -67,3 +67,74 @@ body {
         transform: translateX(1);
     }
 }
+
+/* ----------------- */
+
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    height: 400px;
+    width: 550px;
+    border-radius: 150px 0 150px 0;
+    color: white;
+
+}
+
+.login h1{
+    text-align: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+input{
+    padding: 15px;      /*aumentar o tamnho do campo*/
+    border: none;       /*tira borda*/
+    outline: none;      /*tira linha de borda interior*/
+    font-size: 15px;    /*aumentar o tamanho do texto*/
+    margin: 20px;
+}
+
+
+.botao{
+    background-color: rgb(0, 114, 51);
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    transition: 1s all;   /*transforma a cor lentamente*/
+    cursor: pointer;        /*mudar o cursor do mouse para mãozinha*/
+    font-weight: bold;
+}
+
+.botao:hover{
+    background-color: rgb(34, 255, 82);
+    transform: scale(1.1);      /*aumentar o tamnho do elemento*/
+}
+
+.login a{
+    color: rgb(7, 201, 250);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+.login p {
+    text-align: center;
+    font-size: 15px;
+}
