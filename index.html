@@ -1,39 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tela de login moderna com fundo animado. Faça login para acessar sua conta.">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="./style.css">
-
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-    <div>
+
+    <div class="waves">
         <div class="wave"></div>
         <div class="wave"></div>
         <div class="wave"></div>
     </div>
-<!-- partial -->
 
-    
-    <div class="login">
-        <div class="principal">
+    <main class="login">
+        <form class="principal" action="#" method="post">
             <h1>Login</h1>
 
             <label for="usuario">Usuário</label>
-            <input type="text" id="usuario" required placeholder="seuemail@dominio.com">
+            <input type="email" id="usuario" name="usuario" required placeholder="seuemail@dominio.com">
 
             <label for="senha">Senha</label>
-            <input type="password" id="senha" required>
-            
-            <input type="submit" value="Entrar" class="botao">
+            <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
 
-            <a href="#">Esqueceu a senha?</a>
-            <p>Não é membro?<a href="#"> Escreva-se</a></p>
-        </div>
-    </div>
+            <button type="submit" class="botao">Entrar</button>
 
-
+            <a href="#" class="link-senha">Esqueceu a senha?</a>
+            <p class="cadastro">Não é membro? <a href="#">Inscreva-se</a></p>
+        </form>
+    </main>
 
 </body>
+
 </html>
